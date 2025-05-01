@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bike Maintenance Tracker</title>
+  <link rel="stylesheet" href="bike.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🛠️ Bike Maintenance</h1>
+    <p>Enter your meter reading every 4 days.</p>
+
+    <input type="number" id="readingInput" placeholder="Enter 6-digit reading (e.g. 123456)" />
+    <button id="saveBtn">Save Reading</button>
+    <button id="resetBtn" class="reset-btn">Reset All Readings</button>
+
+    <div id="lastReading"></div>
+    <div id="status"></div>
+  </div>
+
+  <script src="bike.js"></script>
+</body>
+</html>
